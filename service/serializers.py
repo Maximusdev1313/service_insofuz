@@ -5,7 +5,7 @@ from asyncore import read
 
 class OrderForUser__Serializer(serializers.ModelSerializer):
     class Meta:
-        model = OrderForUser
+        model = ReturnForUser
         fields = '__all__'
 
 

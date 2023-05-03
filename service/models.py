@@ -35,7 +35,7 @@ class WorkerReport(models.Model):
         return self.date
 
 
-class OrderForUser(models.Model):
+class ReturnForUser(models.Model):
     bar_code = models.CharField(max_length=100, null=True, blank=True)
     name = models.CharField(max_length=100, null=True, blank=True)
     img_link = models.CharField(max_length=500, null=True, blank=True)

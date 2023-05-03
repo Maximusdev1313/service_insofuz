@@ -16,7 +16,7 @@ class User__ViewSet(ModelViewSet):
 
 
 class OrderForUser__ViewSet(ModelViewSet):
-    queryset = OrderForUser.objects.all()
+    queryset = ReturnForUser.objects.all()
     serializer_class = OrderForUser__Serializer
 
 
